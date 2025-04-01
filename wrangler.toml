@@ -1,0 +1,10 @@
+name = "the-answers-project"
+compatibility_date = "2024-04-01"
+
+[build]
+command = "npm run build"
+watch_dir = ".next"
+
+[site]
+bucket = ".next/static"
+entry-point = "workers-site"
